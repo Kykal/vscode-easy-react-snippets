@@ -15,4 +15,4 @@ Snippets to create:
 * Event functions
 * New React component
 * New props React component
-* Event handler
+* Event handlers
