@@ -2,7 +2,7 @@
     "name": "easy-react-snippets",
     "displayName": "Easy React snippets",
     "description": "Use a few words to describe what you will do!",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "publisher": "AlanXavierBenavidesBenavides",
     "repository": {
         "type": "git",
@@ -24,10 +24,6 @@
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "react",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
