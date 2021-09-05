@@ -1,1 +1,81 @@
-{}
+{
+   "New arrow function": {
+      "prefix": "af",
+      "body": [
+         "const ${1:newArrowFunction} = () => {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Create an empty arrow function"
+   },
+   "New handler function": {
+      "prefix": "han",
+      "body": [
+         "const ${1:handlerName}Handler = (event) =>  {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Snippet for new handler function"
+   },
+   "New React component": {
+      "prefix": "rc",
+      "body": [
+         "import react from 'react';",
+         "$0",
+         "const ${1:reactComponentName} = () => {",
+         "  ",
+         "  return (",
+         "     <div>",
+         "        ",
+         "     </div>",
+         "  );",
+         "};"
+      ],
+      "description": "Create new React component"
+   },
+   "New React component with props": {
+      "prefix": "prc",
+      "body": [
+         "import react from 'react';",
+         "$0",
+         "const ${1:reactComponentName} = (props) => {",
+         "$0",
+         "  ",
+         "$0",
+         "  return (",
+         "     <div>",
+         "        ",
+         "     </div>",
+         "  );",
+         "};"
+      ],
+      "description": "Create new React component"
+   },
+   "New event arrow function": {
+      "prefix": "eaf",
+      "body": [
+         "const ${1:newArrowFunction} = (e) => {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Create an empty event arrow function"
+   },
+   "New function": {
+      "prefix": "f",
+      "body": [
+         "function ${1:functionName}() {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Create an empty function"
+   },
+   "New event function": {
+      "prefix": "ef",
+      "body": [
+         "function ${1:functionName}(e) {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Create an empty event function"
+   }
+}
