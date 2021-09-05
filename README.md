@@ -8,9 +8,9 @@ This sections will divide in two parts: abbreviation and the snippet.
 ## New React component
 `rc`
 ```JavaScript
-import react from 'react';
+import React from 'react';
 
-const reactComponentName = () => {
+const $1 = () => {
 
    return (
       <div>
@@ -23,9 +23,9 @@ const reactComponentName = () => {
 ## New React component (with props)
 `prc`
 ```JavaScript
-import react from 'react';
+import React from 'react';
 
-const reactComponentName = (props) => {
+const $1 = (props) => {
 
    return (
       <div>
@@ -38,7 +38,7 @@ const reactComponentName = (props) => {
 ## Function
 `f`
 ```JavaScript
-function functionName() {
+function $1() {
 
 };
 ```
@@ -46,7 +46,7 @@ function functionName() {
 ## Event function
 `ef`
 ```JavaScript
-function functionName(e) {
+function $1(e) {
 
 };
 ```
@@ -54,7 +54,7 @@ function functionName(e) {
 ## Arrow function
 `af`
 ```JavaScript
-const arrowFunctionName = () => {
+const $1 = () => {
    
 };
 ```
@@ -62,7 +62,7 @@ const arrowFunctionName = () => {
 ## Event arrow function
 `eaf`
 ```JavaScript
-const arrowFunctionName = (e) => {
+const $1 = (e) => {
    
 };
 ```
@@ -70,7 +70,7 @@ const arrowFunctionName = (e) => {
 ## Handler function
 `han`
 ```JavaScript
-const handlerName = (e) => {
+const $1Handler = (e) => {
 
 };
 ```
