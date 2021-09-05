@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.2.3]
+
+- Enhanced tab space on snippets
+- Added export default in new React components (`rc` and `prc`)
+- New React component now has filename (without its extension) as React component name
+
 ## [1.2.2]
 
 - Snippets are more prettier
