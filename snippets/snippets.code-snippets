@@ -20,7 +20,7 @@
    "New React component": {
       "prefix": "rc",
       "body": [
-         "import react from 'react';",
+         "import React from 'react';",
          "$0",
          "const ${1:reactComponentName} = () => {",
          "  ",
@@ -36,7 +36,7 @@
    "New React component with props": {
       "prefix": "prc",
       "body": [
-         "import react from 'react';",
+         "import React from 'react';",
          "$0",
          "const ${1:reactComponentName} = (props) => {",
          "$0",
