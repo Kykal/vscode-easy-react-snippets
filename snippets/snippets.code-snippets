@@ -3,7 +3,7 @@
       "prefix": "af",
       "body": [
          "const ${1:newArrowFunction} = () => {",
-         "$0   ",
+         "$0   ${2}",
          "};"
       ],
       "description": "Empty arrow function"
@@ -12,7 +12,7 @@
       "prefix": "han",
       "body": [
          "const ${1:handlerName}Handler = (e) =>  {",
-         "$0   ",
+         "$0   ${2}",
          "};"
       ],
       "description": "Snippet for new handler function"
@@ -55,7 +55,7 @@
       "prefix": "eaf",
       "body": [
          "const ${1:newArrowFunction} = (e) => {",
-         "$0   ",
+         "$0   ${2}",
          "};"
       ],
       "description": "Empty event arrow function"
@@ -64,7 +64,7 @@
       "prefix": "f",
       "body": [
          "function ${1:functionName}() {",
-         "$0   ",
+         "$0   ${2}",
          "};"
       ],
       "description": "Empty function"
@@ -73,7 +73,7 @@
       "prefix": "ef",
       "body": [
          "function ${1:functionName}(e) {",
-         "$0   ",
+         "$0   ${2}",
          "};"
       ],
       "description": "Empty event function"
@@ -81,18 +81,14 @@
    "Anonymous arrow function": {
       "prefix": "aaf",
       "body": [
-         "() => {",
-         "$0   ",
-         "};"
+         "(${1}) => {${2}}",
       ],
       "description": "Empty anonymous arrow function"
    },
    "Anonymous event arrow function": {
       "prefix": "aeaf",
       "body": [
-         "(e) => {",
-         "$0   ",
-         "};"
+         "(e) => {${1:}",
       ],
       "description": "Empty anonymous event arrow function"
    }

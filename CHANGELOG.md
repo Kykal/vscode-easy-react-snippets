@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.2.1]
+
+- Fixed Anonymous arrow function (`aaf`) syntax error
+- Code is more prettier (you can now move through code sections using tab key)
+
 ## [1.2.0]
 
 - Added Anonymous event arrow function (`aeaf`)
