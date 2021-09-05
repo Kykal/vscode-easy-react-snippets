@@ -1,4 +1,4 @@
-# What do this extension offers?
+# What does this extension offer?
 
 As we both React developers know we use some code more frequenlty than we though, that's why this extension exist: **To save time making code**.
 
