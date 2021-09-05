@@ -6,7 +6,7 @@
          "$0   ",
          "};"
       ],
-      "description": "Create an empty arrow function"
+      "description": "Empty arrow function"
    },
    "New handler function": {
       "prefix": "han",
@@ -31,7 +31,7 @@
          "  );",
          "};"
       ],
-      "description": "Create new React component"
+      "description": "New React component"
    },
    "New React component with props": {
       "prefix": "prc",
@@ -49,7 +49,7 @@
          "  );",
          "};"
       ],
-      "description": "Create new React component"
+      "description": "(Props) React component"
    },
    "New event arrow function": {
       "prefix": "eaf",
@@ -58,7 +58,7 @@
          "$0   ",
          "};"
       ],
-      "description": "Create an empty event arrow function"
+      "description": "Empty event arrow function"
    },
    "New function": {
       "prefix": "f",
@@ -67,7 +67,7 @@
          "$0   ",
          "};"
       ],
-      "description": "Create an empty function"
+      "description": "Empty function"
    },
    "New event function": {
       "prefix": "ef",
@@ -76,6 +76,24 @@
          "$0   ",
          "};"
       ],
-      "description": "Create an empty event function"
+      "description": "Empty event function"
+   },
+   "Anonymous arrow function": {
+      "prefix": "aaf",
+      "body": [
+         "() => {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Empty anonymous arrow function"
+   },
+   "Anonymous event arrow function": {
+      "prefix": "aeaf",
+      "body": [
+         "(e) => {",
+         "$0   ",
+         "};"
+      ],
+      "description": "Empty anonymous event arrow function"
    }
 }

@@ -51,6 +51,22 @@ function $1(e) {
 };
 ```
 
+## Anonymous arrow function
+`aaf`
+```JavaScript
+() => {
+
+};
+```
+
+## Anonymous event arrow function
+`aeaf`
+```JavaScript
+(e) => {
+
+};
+```
+
 ## Arrow function
 `af`
 ```JavaScript

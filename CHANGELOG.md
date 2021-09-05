@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.2.0]
+
+- Added Anonymous event arrow function (`aeaf`)
+- Fixed Anonymous arrow function type error
+
+## [1.1.0]
+
+- Added Empty anonymous function (`eaf`)
+- Changed snippets description (deleted 'Creates' word)
+
 ## [1.0.2]
 
 - Change GitHub repository URL
