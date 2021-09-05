@@ -2,10 +2,10 @@
 
 As we both React developers know we use some code more frequenlty than we though, that's why this extension exist: **To save time making code**.
 
-## Snippets
+# Snippets
 This sections will divide in two parts: abbreviation and the snippet.
 
-### New React component
+## New React component
 `rc`
 ```JavaScript
 import react from 'react';
@@ -35,7 +35,7 @@ const reactComponentName = (props) => {
 };
 ```
 
-### Function
+## Function
 `f`
 ```JavaScript
 function functionName() {
@@ -43,7 +43,7 @@ function functionName() {
 };
 ```
 
-### Event function
+## Event function
 `ef`
 ```JavaScript
 function functionName(event) {
@@ -51,7 +51,7 @@ function functionName(event) {
 };
 ```
 
-### Arrow function
+## Arrow function
 `af`
 ```JavaScript
 const arrowFunctionName = () => {
@@ -59,7 +59,7 @@ const arrowFunctionName = () => {
 };
 ```
 
-### Event arrow function
+## Event arrow function
 `eaf`
 ```JavaScript
 const arrowFunctionName = (e) => {
