@@ -14,7 +14,7 @@ const $1 = () => {
 
    return (
       <div>
-
+         
       </div>
    );
 };
@@ -39,7 +39,7 @@ const $1 = (props) => {
 `f`
 ```JavaScript
 function $1() {
-
+   $2
 };
 ```
 
@@ -47,31 +47,27 @@ function $1() {
 `ef`
 ```JavaScript
 function $1(e) {
-
+   $2
 };
 ```
 
 ## Anonymous arrow function
 `aaf`
 ```JavaScript
-() => {
-
-};
+($1) => {$2}
 ```
 
 ## Anonymous event arrow function
 `aeaf`
 ```JavaScript
-(e) => {
-
-};
+(e) => {$1}
 ```
 
 ## Arrow function
 `af`
 ```JavaScript
-const $1 = () => {
-   
+const $1 = ($2) => {
+   $3
 };
 ```
 
@@ -79,7 +75,7 @@ const $1 = () => {
 `eaf`
 ```JavaScript
 const $1 = (e) => {
-   
+   $2
 };
 ```
 
@@ -87,6 +83,6 @@ const $1 = (e) => {
 `han`
 ```JavaScript
 const $1Handler = (e) => {
-
+   $2
 };
 ```

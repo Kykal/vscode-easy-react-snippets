@@ -2,8 +2,8 @@
    "New arrow function": {
       "prefix": "af",
       "body": [
-         "const ${1:newArrowFunction} = () => {",
-         "$0   ${2}",
+         "const ${1:newArrowFunction} = ($2) => {",
+         "$0   ${3}",
          "};"
       ],
       "description": "Empty arrow function"
@@ -23,10 +23,10 @@
          "import React from 'react';",
          "$0",
          "const ${1:reactComponentName} = () => {",
-         "  ",
+         "$0",
          "  return (",
          "     <div>",
-         "        ",
+         "$0      ",
          "     </div>",
          "  );",
          "};"
@@ -40,11 +40,9 @@
          "$0",
          "const ${1:reactComponentName} = (props) => {",
          "$0",
-         "  ",
-         "$0",
          "  return (",
          "     <div>",
-         "        ",
+         "$0      ",
          "     </div>",
          "  );",
          "};"
@@ -88,7 +86,7 @@
    "Anonymous event arrow function": {
       "prefix": "aeaf",
       "body": [
-         "(e) => {${1:}",
+         "(e) => {${1}",
       ],
       "description": "Empty anonymous event arrow function"
    }
