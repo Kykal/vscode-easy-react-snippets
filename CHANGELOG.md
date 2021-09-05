@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.0.2]
+
+- Change GitHub repository URL
+
+## [1.0.1]
+
+- Snippets correction
 
 ## [1.0.0]
 
