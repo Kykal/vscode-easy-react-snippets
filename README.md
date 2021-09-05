@@ -46,7 +46,7 @@ function functionName() {
 ## Event function
 `ef`
 ```JavaScript
-function functionName(event) {
+function functionName(e) {
 
 };
 ```
