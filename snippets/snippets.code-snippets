@@ -3,7 +3,7 @@
       "prefix": "af",
       "body": [
          "const ${1:newArrowFunction} = ($2) => {",
-         "$0   ${3}",
+         "\t${3}",
          "};"
       ],
       "description": "Empty arrow function"
@@ -12,7 +12,7 @@
       "prefix": "han",
       "body": [
          "const ${1:handlerName}Handler = (e) =>  {",
-         "$0   ${2}",
+         "\t${2}",
          "};"
       ],
       "description": "Snippet for new handler function"
@@ -21,15 +21,17 @@
       "prefix": "rc",
       "body": [
          "import React from 'react';",
-         "$0",
-         "const ${1:reactComponentName} = () => {",
-         "$0",
-         "  return (",
-         "     <div>",
-         "$0      ",
-         "     </div>",
-         "  );",
-         "};"
+         "",
+         "const ${TM_FILENAME_BASE} = () => {",
+         "",
+         "\treturn (",
+         "\t\t<div>",
+         "\t\t\t$1",
+         "\t\t</div>",
+         "\t);",
+         "};",
+         "",
+         "export default ${TM_FILENAME_BASE};"
       ],
       "description": "New React component"
    },
@@ -37,15 +39,17 @@
       "prefix": "prc",
       "body": [
          "import React from 'react';",
-         "$0",
+         "",
          "const ${1:reactComponentName} = (props) => {",
-         "$0",
-         "  return (",
-         "     <div>",
-         "$0      ",
-         "     </div>",
-         "  );",
-         "};"
+         "\t",
+         "\treturn (",
+         "\t\t<div>",
+         "\t\t\t$2",
+         "\t\t</div>",
+         "\t);",
+         "};",
+         "",
+         "export default ${TM_FILENAME_BASE};"
       ],
       "description": "(Props) React component"
    },
@@ -53,7 +57,7 @@
       "prefix": "eaf",
       "body": [
          "const ${1:newArrowFunction} = (e) => {",
-         "$0   ${2}",
+         "\t${2}",
          "};"
       ],
       "description": "Empty event arrow function"
@@ -62,7 +66,7 @@
       "prefix": "f",
       "body": [
          "function ${1:functionName}() {",
-         "$0   ${2}",
+         "\t${2}",
          "};"
       ],
       "description": "Empty function"
@@ -71,7 +75,7 @@
       "prefix": "ef",
       "body": [
          "function ${1:functionName}(e) {",
-         "$0   ${2}",
+         "\t${2}",
          "};"
       ],
       "description": "Empty event function"
