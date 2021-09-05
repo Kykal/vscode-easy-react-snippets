@@ -6,7 +6,7 @@ As we both React developers know we use some code more frequenlty than we though
 This sections will divide in two parts: abbreviation and the snippet.
 
 ### Function
-#### f
+`f`
 ```JavaScript
 function functionName() {
 
@@ -14,14 +14,14 @@ function functionName() {
 ```
 
 ### Event function
-#### ef
+`ef`
 ```JavaScript
 function functionName(event) {
 
 };
 ```
 ### Arrow function
-#### af
+`af`
 ```JavaScript
 const arrowFunctionName = () => {
    
