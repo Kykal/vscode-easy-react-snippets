@@ -67,3 +67,10 @@ const arrowFunctionName = (e) => {
 };
 ```
 
+## Handler function
+`han`
+```JavaScript
+const handlerName = (e) => {
+
+};
+```
