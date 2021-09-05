@@ -6,8 +6,8 @@ As we both React developers know we use some code more frequenlty than we though
 This sections will divide in two parts: abbreviation and the snippet will paste.
 
 af
-``
+```JavaScript
 const newArrowFunction = () => {
-
+   
 };
-``
+```
