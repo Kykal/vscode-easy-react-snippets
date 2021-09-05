@@ -18,6 +18,8 @@ const $1 = () => {
       </div>
    );
 };
+
+export default $1;
 ```
 
 ## New React component (with props)
@@ -33,6 +35,8 @@ const $1 = (props) => {
       </div>
    );
 };
+
+export default $1;
 ```
 
 ## Function
