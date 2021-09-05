@@ -2,11 +2,11 @@
     "name": "easy-react-snippets",
     "displayName": "Easy React snippets",
     "description": "Use a few words to describe what you will do!",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "publisher": "AlanXavierBenavidesBenavides",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Kykal/vscode-easy-react-snippets/settings"
+        "url": "https://github.com/Kykal/vscode-easy-react-snippets/"
     },
     "country": "Mexico (MX)",
     "icon": "ReactLogo.png",
