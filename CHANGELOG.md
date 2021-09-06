@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.2.4]
+
+- Separated Handler function snippet (`han`) into two different snippets:
+   - Handler function (`han`).
+   - Event handler function (`ehan`).
+
 ## [1.2.3]
 
 - Enhanced tab space on snippets
