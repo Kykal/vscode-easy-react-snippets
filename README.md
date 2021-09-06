@@ -86,6 +86,14 @@ const $1 = (e) => {
 ## Handler function
 `han`
 ```JavaScript
+const $1Handler = () => {
+   $2
+};
+```
+
+## Event handler function
+`ehan`
+```JavaScript
 const $1Handler = (e) => {
    $2
 };
