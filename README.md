@@ -86,8 +86,8 @@ const $1 = (e) => {
 ## Handler function
 `han`
 ```JavaScript
-const $1Handler = () => {
-   $2
+const $1Handler = ($2) => {
+   $3
 };
 ```
 
