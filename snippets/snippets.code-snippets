@@ -11,6 +11,15 @@
    "New handler function": {
       "prefix": "han",
       "body": [
+         "const ${1:handlerName}Handler = ($2) =>  {",
+         "\t${3}",
+         "};"
+      ],
+      "description": "Snippet for new handler function"
+   },
+   "New event handler function": {
+      "prefix": "ehan",
+      "body": [
          "const ${1:handlerName}Handler = (e) =>  {",
          "\t${2}",
          "};"
