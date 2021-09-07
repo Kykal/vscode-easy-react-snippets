@@ -49,7 +49,7 @@
       "body": [
          "import React from 'react';",
          "",
-         "const ${1:reactComponentName} = (props) => {",
+         "const ${TM_FILENAME_BASE} = (props) => {",
          "\t",
          "\treturn (",
          "\t\t<div>",
@@ -74,8 +74,8 @@
    "New function": {
       "prefix": "f",
       "body": [
-         "function ${1:functionName}() {",
-         "\t${2}",
+         "function ${1:functionName}($2) {",
+         "\t$3",
          "};"
       ],
       "description": "Empty function"
@@ -99,7 +99,7 @@
    "Anonymous event arrow function": {
       "prefix": "aeaf",
       "body": [
-         "(e) => {${1}",
+         "(e) => {${1}}",
       ],
       "description": "Empty anonymous event arrow function"
    }
