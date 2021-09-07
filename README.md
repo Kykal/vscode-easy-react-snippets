@@ -10,16 +10,16 @@ This sections will divide in two parts: abbreviation and the snippet.
 ```JavaScript
 import React from 'react';
 
-const $1 = () => {
+const filename = () => {
 
    return (
       <div>
-         
+         $1
       </div>
    );
 };
 
-export default $1;
+export default filename;
 ```
 
 ## New React component (with props)
@@ -27,23 +27,23 @@ export default $1;
 ```JavaScript
 import React from 'react';
 
-const $1 = (props) => {
+const filename = (props) => {
 
    return (
       <div>
-
+         $1
       </div>
    );
 };
 
-export default $1;
+export default filename;
 ```
 
 ## Function
 `f`
 ```JavaScript
-function $1() {
-   $2
+function $1($2) {
+   $3
 };
 ```
 
