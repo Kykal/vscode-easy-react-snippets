@@ -67,7 +67,7 @@ export default filename;
 ## Handler arrow function
 `ahan`
 ```JavaScript
-const $1Handler = ($2) => {
+const ${1:handlerName}Handler = ($2) => {
    $3
 };
 ```
