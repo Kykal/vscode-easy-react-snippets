@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [1.3.0]
+
+- Added console log snippet (`clo`);
+
 ## [1.2.5]
 
 - Fixed type error on Anonymous arrow function (`aaf`).
