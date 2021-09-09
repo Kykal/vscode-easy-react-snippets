@@ -9,10 +9,10 @@
 ```JavaScript
 import React from 'react';
 
-const filename = () => {
+const filename = ($1) => {
 
    return (
-      $1
+      $2
    );
 };
 
@@ -34,26 +34,40 @@ const filename = (props) => {
 export default filename;
 ```
 
-##
-``
+## Normal function React component
+`rc`
 ```JavaScript
+import React from 'react';
 
+function filename($1) {
+
+   return (
+      $2
+   );
+};
+
+export default filename;
 ```
 
-##
-``
+## Normal function React component (props)
+`prc`
 ```JavaScript
+import React from 'react';
 
+function filename(props) {
+
+   return (
+      $1
+   );
+};
+
+export default filename;
 ```
 
-##
-``
+## Handler arrow function
+`ahan`
 ```JavaScript
-
-```
-
-##
-``
-```JavaScript
-
+const $1Handler = ($2) => {
+   $3
+};
 ```
