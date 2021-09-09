@@ -71,3 +71,27 @@ const ${1:handlerName}Handler = ($2) => {
    $3
 };
 ```
+
+## Handler arrow function (event)
+`eahan`
+```JavaScript
+const ${1:handlerName}Handler = (e) => {
+   $2
+};
+```
+
+## Handler normal function
+`han`
+```JavaScript
+function ${1:handlerName}Handler = ($2) => {
+   $3
+};
+```
+
+## Handler normal function (event)
+`han`
+```JavaScript
+function ${1:handlerName}Handler = (e) => {
+   $3
+};
+```
