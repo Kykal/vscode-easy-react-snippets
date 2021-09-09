@@ -1,33 +1,6 @@
 {
-   "New arrow function": {
-      "prefix": "af",
-      "body": [
-         "const ${1:newArrowFunction} = ($2) => {",
-         "\t${3}",
-         "};"
-      ],
-      "description": "Empty arrow function"
-   },
-   "New handler function": {
-      "prefix": "han",
-      "body": [
-         "const ${1:handlerName}Handler = ($2) =>  {",
-         "\t${3}",
-         "};"
-      ],
-      "description": "Snippet for new handler function"
-   },
-   "New event handler function": {
-      "prefix": "ehan",
-      "body": [
-         "const ${1:handlerName}Handler = (e) =>  {",
-         "\t${2}",
-         "};"
-      ],
-      "description": "Snippet for new handler function"
-   },
-   "New React component": {
-      "prefix": "rc",
+   "Arrow function React component": {
+      "prefix": "arc",
       "body": [
          "import React from 'react';",
          "",
@@ -42,65 +15,106 @@
          "",
          "export default ${TM_FILENAME_BASE};"
       ],
-      "description": "New React component"
    },
-   "New React component with props": {
-      "prefix": "prc",
+   "Arrow function React component (props)": {
+      "prefix": "parc",
       "body": [
          "import React from 'react';",
          "",
          "const ${TM_FILENAME_BASE} = (props) => {",
-         "\t",
+         "",
          "\treturn (",
          "\t\t<div>",
-         "\t\t\t$2",
+         "\t\t\t$1",
          "\t\t</div>",
          "\t);",
          "};",
          "",
          "export default ${TM_FILENAME_BASE};"
       ],
-      "description": "(Props) React component"
    },
-   "New event arrow function": {
-      "prefix": "eaf",
+   "Normal function React component": {
+      "prefix": "rc",
       "body": [
-         "const ${1:newArrowFunction} = (e) => {",
-         "\t${2}",
-         "};"
+         "import React from 'react';",
+         "",
+         "function ${TM_FILENAME_BASE}() {",
+         "",
+         "\treturn (",
+         "\t\t<div>",
+         "\t\t\t$1",
+         "\t\t</div>",
+         "\t);",
+         "};",
+         "",
+         "export default ${TM_FILENAME_BASE};"
       ],
-      "description": "Empty event arrow function"
    },
-   "New function": {
-      "prefix": "f",
+   "Normal function React component (props)": {
+      "prefix": "prc",
       "body": [
-         "function ${1:functionName}($2) {",
+         "import React from 'react';",
+         "",
+         "function ${TM_FILENAME_BASE}(props) {",
+         "",
+         "\treturn (",
+         "\t\t<div>",
+         "\t\t\t$1",
+         "\t\t</div>",
+         "\t);",
+         "};",
+         "",
+         "export default ${TM_FILENAME_BASE};"
+      ],
+   },
+   "Handler arrow function": {
+      "prefix": "ahan",
+      "body": [
+         "const ${1:handlerName}Handler = ($2) => {",
          "\t$3",
-         "};"
+         "};",
       ],
-      "description": "Empty function"
    },
-   "New event function": {
-      "prefix": "ef",
+   "Handler arrow function (event)": {
+      "prefix": "eahan",
       "body": [
-         "function ${1:functionName}(e) {",
-         "\t${2}",
-         "};"
+         "const ${1:handlerName}Handler = (e) => {",
+         "\t$3",
+         "};",
       ],
-      "description": "Empty event function"
+   },
+   "Handler normal function": {
+      "prefix": "han",
+      "body": [
+         "function ${1:handlerName}Handler($2) {",
+         "\t$3",
+         "};",
+      ],
+   },
+   "Handler normal function (event)": {
+      "prefix": "ehan",
+      "body": [
+         "function ${1:handlerName}Handler(e) {",
+         "\t$3",
+         "};",
+      ],
    },
    "Anonymous arrow function": {
       "prefix": "aaf",
       "body": [
-         "(${1}) => {${2}}",
+         "($1) => {$2}"
       ],
-      "description": "Empty anonymous arrow function"
    },
-   "Anonymous event arrow function": {
-      "prefix": "aeaf",
+   "Anonymous function": {
+      "prefix": "af",
       "body": [
-         "(e) => {${1}}",
+         "function($1) {$2}"
       ],
-      "description": "Empty anonymous event arrow function"
-   }
+   },
+   "Console log": {
+      "prefix": "clo",
+      "body": [
+         "console.log($1);"
+      ],
+   },
 }
