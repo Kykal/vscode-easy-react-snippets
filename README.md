@@ -89,9 +89,27 @@ function ${1:handlerName}Handler = ($2) => {
 ```
 
 ## Handler normal function (event)
-`han`
+`ehan`
 ```JavaScript
 function ${1:handlerName}Handler = (e) => {
    $3
 };
+```
+
+## Anonymous arrow function
+`aaf`
+```JavaScript
+($1) => {$2}
+```
+
+## Anonymous function
+`aaf`
+```JavaScript
+function($1) {$2}
+```
+
+## Console log
+`clo`
+ ```JavaScript
+console.log($1);
 ```
