@@ -1,9 +1,10 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
-## [1.3.0]
+## [2.0.0]
 
-- Added console log snippet (`clo`);
+- Changed some shortcuts of snippets
+- Added ``console.log()`` as `clo`
 
 ## [1.2.5]
 
