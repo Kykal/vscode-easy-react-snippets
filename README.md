@@ -103,7 +103,7 @@ function ${1:handlerName}Handler = (e) => {
 ```
 
 ## Anonymous function
-`aaf`
+`af`
 ```JavaScript
 function($1) {$2}
 ```
