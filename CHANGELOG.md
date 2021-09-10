@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "easy-react-snippets" extension will be documented in this file.
 
+## [2.0.1]
+
+- **Fix:** Grammatical error on Anonymous function (`af`) shortcut on README.md [was the same as Anonymous arrow function (`aaf`)]
+
 ## [2.0.0]
 
 - Changed majority shortcuts of snippets
